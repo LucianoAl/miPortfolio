@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Raleway:wght@600&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+
+.fondo {
+    background: url(../multimedia/images/triangulo11.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* HEADER */
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #FFFFFF;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+}
+
+nav ul li {
+    border-radius: 5px;
+}
+
+nav ul li :hover {
+    border-radius: 5px;
+    background-color: rgb(85, 178, 247);
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.fondo main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+form {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section {
+    background: #FFFFFF;
+    padding: 20px;
+    top: 361px;
+    left: 538px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    line-height: 28px;
+}
+
+#botonA {
+    background-color: rgb(55, 71, 133);
+    border-color: rgb(36, 48, 94);
+    color: rgb(255, 255, 255);
+    width: 294px;
+    height: 57px;
+    border-radius: 5px;
+}
+
+#botonB {
+    background-color: rgb(55, 71, 133);
+    border-color: rgb(36, 48, 94);
+    color: rgb(255, 255, 255);
+    width: 294px;
+    height: 38px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.colorr {
+    filter: invert(29%) sepia(90%) saturate(1524%) hue-rotate(145deg) brightness(94%) contrast(101%);
+}
+
+.centradoC {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:500px) {
+   
+    section {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        padding: 20px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    #botonA {
+        width: 260px;
+    }
+
+    .espacioSobre {
+        margin: 20px 0 0 20px;
+    }
+
+    .centradoA {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centradoB {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .espacioB {
+        margin: 5px 0 20px 74.5px;
+    }
+
+
+    form {
+        background: #FFFFFF;
+        padding: 20px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    #botonB {
+        width: 260px;
+    }
+
+    .tamImagen {
+        width: 250px;
+        height: 180px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: #ffffff;
+        justify-content: center;
+        padding: 0px;
+    }
+}
+
+@media(min-width:501px) {
+
+    .secPro {
+        width: 500px;
+        height: 400px;
+    }
+
+    .secProB {
+        width: 500px;
+        height: 340px;
+    }
+    
+    .centradoProyect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .espaImagenC {
+        padding: 0 0 0 152px;
+    }
+
+    .tamImagen {
+        width: 400px;
+        height: 230px;
+        padding: 5px 0 0 60px;
+        margin-bottom: 70px;
+    }
+
+    .centradoSobre {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0 0 0;
+    }
+
+    .espacioParrafo {
+        margin: 0 0 0 20px;
+    }
+}
+
+@media(max-width:992px) {
+
+    #alineado {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    nav ul li {
+        background-color: rgb(85, 178, 247);
+    }
+
+    .estiloA {
+        padding: 0 29.5px 0 29.5px;
+        margin: 6px 0 6px 0;
+    }
+
+    .estiloB {
+        padding: 0 16px 0 16px;
+    }
+
+    .estiloC {
+        padding: 0 6.5px 0 6.5px;
+        margin: 6px 0 6px 0;
+    }
+
+    .estiloD {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media(min-width:992px) {
+
+    #alineado {
+        display: flex;
+        flex-direction: row;
+    }
+}
